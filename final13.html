@@ -1,0 +1,174 @@
+<!doctype html>
+<html>
+<head>
+
+<!-- Font Families -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!-- Css -->
+<link rel="stylesheet" type="text/css" href="asests/css/final13.css">
+<!-- Jquery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Final13</title>
+</head>
+
+<body>
+	<!-- HEADER -->
+	<header style="position: absolute; z-index: 2; border-width: 1px;" class="borde-gy">
+		<div class="col-sm-2 borde-gy" style="border-width: 1px;"><h1><img src="asests/home/logo.png" class="todo"><h1></div>
+		<div class="col-sm-10 row"><nav id="menu-header"> </nav>
+	</header>
+
+	<!-- MAIN -->
+	<main>
+		<!-- Slider -->
+		<section class="" style="z-index: 1">
+		 	<div id="main-slider" class="carousel slide" data-ride="carousel">
+   				 <!-- Indicadores -->
+    			<ol class="carousel-indicators">
+      				<li data-target="#main-slider" data-slide-to="0" class="active"></li>
+      				<li data-target="#main-slider" data-slide-to="1"></li>
+      				<li data-target="#main-slider" data-slide-to="2"></li>
+				</ol>
+    			<!-- diapositivas -->
+    			<div class="carousel-inner">
+      				<div class="item active">
+        				<img src="asests/home/s1.jpg" alt="slider1" style="width:100%;" alt="Imagen dinamica">
+        				<div class="carousel-caption d-none d-md-block">
+    						<h1 class="slide-t">Trabajo Creativo</h1>
+    						<p>La r&aacutepida comunicacion es la mejor de las pr&aacutecticas</p>
+    						<button onclick="hola()" class="btn btn-primary">Empieza</button>
+  						</div>
+      				</div>
+ 				    
+ 				    <div class="item">
+        				<img src="asests/home/s2.jpg" alt="slider2" style="width:100%;" alt="Imagen dinamica">
+        				<div class="carousel-caption d-none d-md-block">        				
+        					<h1>Trabajo Conjunto</h1>
+    						<p>La r&aacutepida comunicacion es la mejor de las pr&aacutecticas</p>
+    						<button onclick="hola()" class="btn btn-primary">Empieza</button>
+    					</div>
+      				</div>
+
+      				<div class="item">
+        				<img src="asests/home/s3.jpg" alt="slider3" style="width:100%;" alt="Imagen dinamica">
+        				<div class="carousel-caption d-none d-md-block">
+        					<h1>Presentacion de Fin de A&ntildeo</h1>
+    						<p>Para apreciar a todos nuestros compañeros</p>
+    						<button onclick="hola()" class="btn btn-primary">Enter&aacutete</button>
+    					</div>
+      				</div>
+    			</div>
+
+    			<!-- Left and right controls -->
+    			<a class="left carousel-control" href="#main-slider" data-slide="prev">
+     				<span class="glyphicon glyphicon-chevron-left"></span>
+      				<span class="sr-only">Previous</span>
+    			</a>
+   	 			<a class="right carousel-control" href="#main-slider" data-slide="next">
+      				<span class="glyphicon glyphicon-chevron-right"></span>
+      				<span class="sr-only">Next</span>
+    			</a>
+  			</div>
+		</section>
+
+		<!-- A que nos dedicamos-->
+		<section class="">
+			<h1 class="centrado block">Qu&eacute hacemos</h1>
+			<p class="centrado mitad margen-auto" style="margin-bottom: 20px">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+			<div id="que-hacemos" class="conteiner-fluid flexbox">	
+			</div>
+		</section>
+
+		<!-- Como trabajamos -->
+		<section id="comoTrabajamos" class="container">
+			<h1>Como trabajamos</h1>
+			<div>
+				<h2>Titulo</h2>
+				<p>Parrafo Descriptivo</p>
+				<a href="" class="leermas">Leer m&aacutes</a>
+			</div>
+		</section>
+
+		<!-- Quines somos hacerca de nosotros -->
+		<section class="">
+			<div class="col-sm-6" style="padding: 0px;"><img src="asests/home/0.jpg" style="width:100%" class="todo"></div>
+			<div id="nosotros" class="col-sm-6" style="padding: 2%;padding-top: 0px;">
+			</div>
+		</section>
+
+		<!-- Nuestros trabajos. Display de los distintos trabajos de la empresa. -->
+		<section id="trabajos" class="">
+			<h1>Nuestros trabajos</h1>
+			<!-- Galeria de imagenes -->
+			<div id="galeriaImagen" class="sinpadding-margin"> </div>
+			<!-- Grilla/Lista de iconos-->
+			<div id="grilla-iconos" class="container"> </div>
+		</section>
+
+		<!-- Video exlicativo hacia los clientes-->
+		<section id="video" class=""><div class="row">
+			<div style="padding: 5%;" class="col-sm-6"><iframe width="560" height="315" src="https://www.youtube.com/embed/i8Yjk7KedVg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width: 100%"></iframe></div>
+			<div class="col-sm-6" style="padding: 5%; padding-left: 0px">
+				<h1 style="text-align: inherit;">Un peque&ntildeo video para nuestros clientes</h1>
+				<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+				<a href="https://www.youtube.com/embed/i8Yjk7KedVg" class="leermas">Leer m&aacutes</a>
+			</div></div>
+		</section>
+
+		<!-- Feedback the clientes con los que ya hemos trabajado-->
+		<section id="opiniones" class="">
+			<div class="col-sm-6">
+				<h1>Las opiniones de nuestros clientes</h1>
+				<p>Parrafo descriptivo</p>
+				<a href="porfolio.html">Leer m&aacutes</a>
+			</div>
+			<div class="col-sm-6"><article id="sliderOpinion">
+				<p>Opinion</p>
+				<p>Persona que escribio la opinion</p>
+				<div id="botonera">
+					<button class="circulo"></button>
+					<button class="circulo"></button>
+					<button class="circulo"></button>
+				</div>
+			</article></div>
+		</section>
+
+		<!-- Pequeña introduccion a el equipo. link a la pagina principal de Equipo-->
+		<section id="equipo" class=""><div class="row">
+			<div class="col-sm-6" class="sinpadding-margin"><img src="asests/home/6.jpg" style="width:100%"></div>
+			<div class="col-sm-6" style="padding: 2%; padding-top:0px">
+				<h1>Gran Trabajo en Equipo</h1>
+				<h3>Lorem ipsum dolor sit amet</h3>
+				<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+				<a href="" class="leermas">Leer m&aacutes</a>
+			</div></div>
+		</section>
+
+		<!-- Logos CALESITA -->
+		<section style="background-color: lightgray" id="calesita" class="flexbox"> </section>
+
+	</main>
+
+	<!-- FOOTER -->
+	<footer id="info" class=""> 
+		<!-- Mapa de navegacion e Informacion -->
+		<!-- menu redes socicales  -->
+	</footer>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="asests/js/final13.js"></script>
+</body>
+
+</html>

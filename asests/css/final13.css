@@ -1,0 +1,288 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*----------------- RESET -------------------*/
+main, header, footer{
+	width: 90%;
+	max-width: 1450px;
+	overflow: hidden;
+	margin: 0 auto;
+	background-color: white;
+}
+
+header{
+	background-color: transparent;
+}
+
+h1,h2,h3,h4{
+	font-family: Roboto;
+}
+
+section{
+	overflow: hidden;
+	margin-bottom: 5%;
+}
+
+
+i{
+    font-size: x-large;
+    min-width: 50px;
+    color: dodgerblue;
+    text-align: center;
+    margin: 10px;
+    margin-left: 0px;
+}
+
+h1{
+    font-weight: bolder;
+	font-size: x-large;
+	margin-bottom: 15px;
+	margin-top: 10px;
+	text-align: center;
+
+
+}
+
+h2{
+	font-weight: bold;
+	margin-bottom: 10px;
+	margin-top: 0px;
+}
+
+p{
+	font-family: Lato;
+	margin-bottom: 10px;
+	font-size: medium;
+}
+
+button{
+	background-color: dodgerblue;
+	color: white;
+}
+
+/*-----------HEADER---------------*/
+
+
+.busca{
+	color: white;
+}
+
+/*---------SLIDER-------*/
+.slider-ti{
+	font-size: 60px !important;
+    font-weight: bolder !important;
+}
+
+.box-center{
+	top: 50%;
+	transform: translate(-0%,-25%);
+}
+
+.marg-bot{
+	margin-bottom: 15px;
+}
+
+.marg-top{
+	margin-top: 15px;
+}
+
+.leermas{
+	font-weight: bold;
+	color: black;
+	border-bottom: dodgerblue;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+}
+
+.centrado{
+	text-align: center;
+}
+
+.block{
+	display: block;
+	width: 100%;
+}
+
+.flota {
+	float: right;
+	display: inline-block;
+}
+
+.flotai{
+	float: left;
+	display: inline;
+}
+
+.overflow-hidden{
+	width: 100%;
+	overflow: hidden;
+}
+
+.flexbox{
+	display: flex;
+	overflow: hidden;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.filas{
+	flex-direction: row;
+}
+
+.columnas{
+	flex-direction: column;
+}
+
+.tercio{
+	width: 30%;
+}
+
+.margen-auto{
+	margin: 0 auto;
+}
+
+.mitad{
+	width: 50%;
+}
+
+.padding5{
+	padding: 5% !important;
+}
+
+.todo{
+    width: 100%;
+    padding:0px;
+    margin: 0px;
+}
+
+.sinpadding-margin{
+	padding: 0px !important;
+	margin: 0px !important;
+}
+
+/*---------Acerca de nosotros-------------------*/
+
+.grilla{
+	display: flex;
+    width: 100%;
+    height: 25%;
+    margin-bottom: 10px;
+}
+
+
+/*---------Sector Que Hacemos----------*/
+
+article.porfolio{
+	border-color: lightgray;
+	margin-bottom: 20px;
+}
+
+
+div.flexbox{
+	padding-top: 10px;
+	padding-left: 10%;
+	padding-right: 10%;
+
+}
+
+.pequeno{
+	font-size: smaller;
+}
+/*----------Section equipo home-----------*/
+#equipo-index{
+	margin-bottom: 0px;
+}
+
+/* ------- Section logos ------- */
+#calesita{
+	background-color: lightgray;
+	padding: 3%;
+	margin-bottom: 0px;
+}
+
+.gris{
+	filter: grayscale(100%);
+	margin: auto;
+	padding: 2%;
+}
+
+/*-------------FOOTER--------------*/
+.borde-gy{
+	border-style: groove;
+	border-width: 1px;
+	border-top-width: 0px;
+	border-color: lightgray;
+}
+
+footer{
+	margin-bottom: 2%;
+	margin-top: 2%;
+}
+
+
+/*------------PORFOLIO------------*/
+
+.no-borde-right{
+	border-right: 0px;
+	border-top: 0px;
+}
+
+/*-------------EQUIPO----------*/
+.br-circle{
+	border-radius: 50%;
+	border-style: dashed;
+	border-width: 5px;
+	border: gray;
+}
+
+.img-cover{
+	object-fit: cover;
+	width: 90%;
+	height: 50%;
+}
