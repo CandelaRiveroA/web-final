@@ -1,1 +1,13 @@
+Trabajo practico página web 2018
+El trabajo practico fue aprobado pero nunca se termino, hay muchos assest que desaparecieron o se rompieron las rutas al subirlo al github
+Esta es la unica version que encontre pero no es la final.
 
+Por Hacer:
+actualizar las rutas
+reparar el menu
+configuar las estructuras de las paginas
+tipografia
+equipo - desaparecio los colores de los textos
+porfolio - desapecioron los links y se achicaron las tarjetas
+desaparecio timeline.html
+link a cv roto
